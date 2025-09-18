@@ -1,74 +1,72 @@
-# Startup - Free Next.js Startup Website Template
+# Ames NZ Website
 
-Startup is a free, open-source, and premium-quality [**Next.js startup website template**](https://nextjstemplates.com/templates/startup) that comes with everything you need to launch a startup, business, or SaaS website, including all essential sections, components, and pages.
+A professional company website for Ames NZ, built with Next.js 14, TypeScript, and Tailwind CSS.
 
-If you're looking for a high-quality and visually appealing, feature-rich Next.js Template for your next startup, SaaS, or business website, this is the perfect choice and starting point for you!
+## Features
 
-### ✨ Key Features
-- Crafted for Startup and SaaS Business
-- Next.js and Tailwind CSS
-- All Essential Business Sections and Pages
-- High-quality and Clean Design
-- Dark and Light Version
-- TypeScript Support
-and Much More ...
+- ⚡ Next.js 14 with App Router
+- 🎨 Tailwind CSS for styling
+- 📱 Fully responsive design
+- 🌙 Dark mode support
+- ⚡ TypeScript for type safety
+- 🎯 SEO optimized
+- 📦 Clean and minimal design
 
-### 🙌 Detailed comparison between the Free and Pro versions of Startup
+## Pages
 
-| Feature             | Free | Pro |
-|---------------------|------------|----------|
-| Next.js Landing Page             | ✅ Yes      | ✅ Yes      |
-| All The Integrations - Auth, DB, Payments, Blog and many more ...             | ❌ No      | ✅ Yes |
-| Homepage Variations             | 1      | 2 |
-| Additional SaaS Pages and Components             | ❌ No      | ✅ Yes |
-| Functional Blog with Sanity       | ❌ No      | ✅ Yes |
-| Use with Commercial Projects            | ✅ Yes      | ✅ Yes      |
-| Lifetime Free Updates             | ✅ Yes      | ✅ Yes |
-| Email Support       | ❌ No         | ✅ Yes       |
-| Community Support         | ✅ Yes         | ✅ Yes       |
+- **Home** - Main landing page with company overview
+- **About** - Information about Ames NZ and our services
+- **Contact** - Contact form and company information
 
+## Getting Started
 
-### [🔥 Get Startup Pro](https://nextjstemplates.com/templates/saas-starter-startup)
+First, install dependencies:
 
-[![Startup Pro](https://raw.githubusercontent.com/NextJSTemplates/startup-nextjs/main/startup-pro.webp)](https://nextjstemplates.com/templates/saas-starter-startup)
+```bash
+npm install
+```
 
-Startup Pro - Expertly crafted for fully-functional, high-performing SaaS startup websites. Comes with with Authentication, Database, Blog, and all the essential integrations necessary for SaaS business sites.
+Then, run the development server:
 
+```bash
+npm run dev
+```
 
-- [🚀 View Free Demo](https://startup.nextjstemplates.com/)
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- [🚀 View Pro Demo](https://startup-pro.nextjstemplates.com/)
+## Build for Production
 
-- [📦 Download](https://nextjstemplates.com/templates/startup)
+To build the project for production:
 
-- [🔥 Get Pro](https://nextjstemplates.com/templates/saas-starter-startup)
+```bash
+npm run build
+```
 
-- [🔌 Documentation](https://nextjstemplates.com/docs)
+To start the production server:
 
-### ⚡ Deploy Now
+```bash
+npm start
+```
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FNextJSTemplates%2Fstartup-nextjs)
+## Deployment
 
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/NextJSTemplates/startup-nextjs)
+This project is optimized for deployment on Vercel. Simply connect your repository to Vercel and it will automatically build and deploy.
 
+## Project Structure
 
-### 📄 License
-Startup is 100% free and open-source, feel free to use with your personal and commercial projects.
+- `src/app/` - Next.js App Router pages
+- `src/components/` - Reusable React components
+- `src/styles/` - Global styles and Tailwind configuration
+- `public/` - Static assets and images
 
-### 💜 Support
-If you like the template, please star this repository to inspire the team to create more stuff like this and reach more users like you!
+## Technologies Used
 
-### ✨ Explore and Download - Free [Next.js Templates](https://nextjstemplates.com)
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- React 19
+- Next Themes (for dark mode)
 
-### Update Log
+## License
 
-**10 April 2025**
-- Fix peer deps issue with Next.js 15
-- Upgrade to tailwind v4
-- Refactored blog cards for handling edge cases(text ellipsis on bio, keeping author details at the bottom etc.)
-- Re-wrote blog details page with icons separation, fallback author image and better markup.
-- Fixed duplicate key errors on homepage.
-- Separated icons on theme-switcher button, and refactored scroll-to-top button.
-
-**29 Jan 2025**
-- Upgraded to Next.js 15
+© 2024 Ames NZ. All rights reserved.
